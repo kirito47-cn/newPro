@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul,li{
+    list-style: none;
+}
+html{
+    font-size: calc(100*100vw/750);
+}
+body{
+    font-size: .32rem;
+}
+div{
+    box-sizing: border-box;
+}
+.main{
+    padding: 0 .5rem .5rem .5rem;
+
+}
+.page{
+    width: 325px;
+    height: 11.36rem;
+    text-align: left;
+    background: #fff;
+    /* background-color: #ccc; */
+}
+.top{
+    height: 44px;
+    width: 325px;
+    /* background-color: #f00; */
+    line-height: 44px;
+    background: #fff;
+    font-size: 17px;
+    z-index: 999;
+    text-align: center;
+    position: relative;
+}
+.top img{
+    width: 24px;
+    height: 24px;
+    top: 10px;
+    left: 0;
+    position: absolute;
+}
+.input-container{
+    width: 6.5rem;
+    height: 1rem;
+    position: relative;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    overflow: hidden;
+    border-bottom: .02rem solid #efefef;
+    margin-top: .4rem;
+    overflow: hidden;
+}
+input[type='text']{
+    width: 100%;
+    height: 100%;
+}
+input{
+    border: 0;
+}
+input:focus{
+    outline: none;
+}
+input[type='password']{
+    margin-right: 1rem;
+}
+.btn{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    background-color: #efefef;
+    border-radius: .5rem;
+    font-family: PingFangSC-Semibold;
+    font-size: .32rem;
+    color: #fff;
+    margin-top: .2rem;
+   text-align: center;
+    background-image: linear-gradient(90deg,#fab3b3,#ffbcb3 73%,#ffcaba);
+}
+.yijian{
+    border: 1px solid #ff2000;
+    color: #f10000;
+    background: #fff;
+   
+}
+.quickdl{
+    color: rgba(0,0,0,.4);
+    font-size: .28rem;
+    margin-top: .4rem;
+    overflow: hidden;
+}
+.quickdl a{
+    color: rgba(0,0,0,.4);
+    font-size: .28rem;
+}
